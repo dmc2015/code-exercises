@@ -2,7 +2,7 @@ let Prompt = require('simple-prompt');
 
 
 
-function run() {
+hello = () => {
 
   let questions = [
     {
@@ -25,4 +25,4 @@ function run() {
   })
 }
 
-run();
+hello();
