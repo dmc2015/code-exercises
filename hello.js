@@ -1,7 +1,8 @@
 let Prompt = require('simple-prompt');
 
 
-
+//arrow functions are only implicitly returned if they are one liners
+//else you will need to name them and call them
 hello = () => {
 
   let questions = [
@@ -16,7 +17,6 @@ hello = () => {
 
   Name.create().then(function (error, answers){
     if ( error ){ () =>{ return error }  }
-    console.log('answers.Whatisyourname?;', answers["Whatisyourname?"]);
     let name = answers["Whatisyourname?"];
 
     let greeting = 'Hello ';
